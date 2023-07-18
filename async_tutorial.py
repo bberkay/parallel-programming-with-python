@@ -8,3 +8,25 @@
 
     - All descriptions and comments created by ChatGPT and GitHub Copilot
 """
+import time
+import os
+from datetime import datetime
+
+import asyncio
+
+async def main() -> None:
+    await asyncio.sleep(1)
+    print('hello')
+
+if __name__ == "__main__":
+    star_time = time.perf_counter()
+
+    main()
+
+    end_time = time.perf_counter()
+    print(f"Finished in {end_time - star_time} seconds")
+
+"""
+    Output:
+    -------
+"""

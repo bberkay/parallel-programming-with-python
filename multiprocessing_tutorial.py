@@ -56,8 +56,8 @@ if __name__ == "__main__":
 
 
 """
-    Output
-    ------
+    Output:
+    -------
     (5864, 'SpawnProcess-1') Square of 1 is 1
     (11664, 'SpawnProcess-2') Square of 2 is 4
     (14560, 'SpawnProcess-3') Square of 3 is 9
